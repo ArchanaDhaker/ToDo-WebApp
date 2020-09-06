@@ -94,14 +94,10 @@
     margin-left: 40px;
 }
 
-.spann{
-    padding-left: 8px;
-    padding-right: 8px;
-    opacity: .5;
-    font-size: 18px;
+.checkBox{
+    cursor: pointer;
 }
 
-.divvv{
-    display: flex;
+.edit{
+    cursor: pointer;
 }
-

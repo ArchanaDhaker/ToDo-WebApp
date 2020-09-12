@@ -17,6 +17,7 @@
     display: flex;
     justify-content: space-between;
     margin: 10px 18px;
+    background: white;
 }
 
 .active{
@@ -30,4 +31,37 @@
     justify-content: center;
     height: 34px;
     align-items: center;
+}
+
+.innerBody{
+    height: 100vh;
+    background: #eeeeee;
+}
+
+.AllDetails{
+    font-weight: bold;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.Details{
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 18px;
+}
+
+.delete{
+    display: flex;
+    height: 24px;
+    align-items: center;
+    color: red;
+}
+
+.something{
+    background: white;
+    margin: 18px 18px;
+    padding: 10px;
+    height: 400px;
+}
 }

@@ -11,5 +11,20 @@ $(document).ready(function(){
         $(".active").removeClass("active");
         $("#completed").addClass("active"); 
     }); 
-  
+
+    $("#plus").click(function(){
+        console.log("cahercckhinang");
+        $(".templet_1").addClass("hide");
+        $(".templet_2").removeClass("hide"); 
+        $("#right").addClass("hide");
+        $("#direction").removeClass("hide");
+    }); 
+
+    $("#direction").click(function(){
+        console.log("checking back");
+        $("#direction").addClass("hide");
+        $(".templet_1").removeClass("hide");
+        $("#right").removeClass("hide");
+        $(".templet_2").addClass("hide");
+    });
 });

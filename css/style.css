@@ -64,3 +64,40 @@
     padding: 10px;
     height: 400px;
 }
+
+.taskBox{
+    background: white;
+    margin: 18px 18px;
+    padding: 10px;
+    height: 400px;
+    font-size: x-large;
+}
+
+.imgBox{
+    background: white;
+    margin: 18px 18px;
+    padding: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imageTxt{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: x-large;
+}
+
+.bottomLine{
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px;
+    background: #075144;
+    color: white;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+}

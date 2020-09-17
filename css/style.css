@@ -101,3 +101,16 @@
     width: 100%;
     align-items: center;
 }
+
+.Assignment{
+    padding: 0 26px;
+}
+
+.dummy{
+    padding-right: 8px;
+}
+
+.ass{
+    display: flex;
+    padding: 15px 0;
+}

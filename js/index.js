@@ -2,16 +2,19 @@ $(document).ready(function(){
     $("#all").click(function(){
         $(".active").removeClass("active");
         $("#all").addClass("active"); 
+        $(".pendingTasks").addClass("hide");
     }); 
 
     $("#pending").click(function(){
         $(".active").removeClass("active");
         $("#pending").addClass("active"); 
+        $(".pendingTasks").removeClass("hide");
     }); 
      
     $("#completed").click(function(){
         $(".active").removeClass("active");
         $("#completed").addClass("active"); 
+        $(".pendingTasks").addClass("hide");
     }); 
 
     $("#plus").click(function(){
@@ -20,7 +23,6 @@ $(document).ready(function(){
         $(".templet_2").removeClass("hide"); 
         $("#right").addClass("hide");
         $("#direction").removeClass("hide");
-        //$("#plus").addClass("hide");
     }); 
 
     $("#direction").click(function(){
@@ -32,8 +34,8 @@ $(document).ready(function(){
     });
 
     $(".imgBox").click(function(){
-        // yaha ander krna hai
-        // wo input div g box ke ander hai isliye imgbox pe click hone pe ek loop ban raha hai bahar nikaal de us div ko
         $('#imgFile').trigger("click");
     })
+
+
 });

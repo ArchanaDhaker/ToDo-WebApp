@@ -19,6 +19,7 @@
         <div class="headText" style="font-size: 18px;">All Tasks</div>
         <div id="plus" class="headText"><i class="fa fa-plus-circle fa-2x" aria-hidden="true"></i></div>
     </div>
+    
     <div class="templet_1">
         <div class="Tasks">
             <div class="navTab active" id="all" style="border-right: 1px solid #ccc;">All</div>
@@ -37,17 +38,58 @@
                 <i class="fa fa-trash" aria-hidden="true"></i>
             </div>
         </div>
-        <div class="something">Something.....</div>
+        <div class="something">
+            <div class="pendingTasks hide">
+                <div class="ass" id="ass1">
+                    <div><i class="fa fa-square-o" style="font-size:24px"></i></div>
+                    <div class="Assignment">
+                        <div style="font-size: 18px;">Assignment H</div>
+                        <img class="dummy" src="assets/dummy.jpg" width="12%">
+                        <img class="dummy" src="assets/dummy.jpg" width="12%">
+                        <img class="dummy" src="assets/dummy.jpg" width="12%">
+                    </div>
+                </div>
+
+                <div style="border-bottom: 1px solid #eeeeee; padding: 5px 0;"></div>
+
+                <div class="ass" id="ass2">
+                    <div><i class="fa fa-square-o" style="font-size:24px"></i></div>
+                    <div class="Assignment">
+                        <div style="font-size: 18px;">Publish new blog post</div>
+                    </div>
+                </div>
+                
+                <div style="border-bottom: 1px solid #eeeeee; padding: 5px 0;"></div>
+
+                <div class="ass" id="ass3">
+                    <div><i class="fa fa-square-o" style="font-size:24px"></i></div>
+                    <div class="Assignment">
+                        <div style="font-size: 18px;">Finish Documentation</div>
+                    </div>
+                </div>
+                
+                <div style="border-bottom: 1px solid #eeeeee; padding: 5px 0;"></div>
+
+                <div class="ass" id="ass4">
+                    <div><i class="fa fa-square-o" style="font-size:24px"></i></div>
+                    <div class="Assignment">
+                        <div style="font-size: 18px;">Bug Testing Report</div>
+                    </div>
+                </div>
+                
+                <div style="border-bottom: 1px solid #eeeeee; padding: 5px 0;"></div>
+
+            </div>
+        </div>
     </div>
+
     <div class="templet_2 hide">
         <div>
             <textarea  placeholder="Add new Task..." class="taskBox" id="inputText" name="iText" rows="7" cols="24"> </textarea>
         </div>
         <div  class="imgBox">
-            <!-- / yaha dimag ye lagana hai ki input box to hoga but dikna nahi chahiye dikhega tere jaise hi -->
             <div class="headText"><i class="fa fa-plus-square-o" style="font-size:24px"></i></div>
             <div class="imageTxt">Add image</div>
-            
         </div>
         <input id="imgFile" type="file" class="hide">
         <div class="bottomLine">Add Task</div>
